@@ -97,14 +97,39 @@
       their policies; please request refunds via
       <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</p>
 
-    <h2>4. AI-generated content</h2>
+    <h2>4. AI-generated content &amp; safety guardrails</h2>
     <p>Imagine: Kids Coloring Book uses OpenAI's image-generation API to create
-      coloring pages from the text prompts typed or spoken in the app. AI-generated
-      output can occasionally be imperfect, unexpected, or fail to match the prompt.
-      We apply content filters, but we cannot guarantee that every generated image
+      coloring pages from the text prompts typed or spoken in the app. To keep
+      the experience appropriate for children, we apply multiple layers of
+      safety:</p>
+    <ul>
+      <li><strong>On-device prompt filter.</strong> Before any prompt is sent off
+        the device, it is screened against a content-safety filter that blocks
+        sexual content, violence, weapons, drugs, hate speech, self-harm,
+        prompt-injection attempts, and gibberish. Blocked prompts never leave
+        the device.</li>
+      <li><strong>Style enforcement.</strong> Every prompt is automatically
+        wrapped with instructions that constrain the output to a
+        black-and-white, kid-appropriate coloring-book illustration. A child
+        cannot override this style through wording.</li>
+      <li><strong>OpenAI moderation.</strong> OpenAI applies its own safety
+        classifiers on top of ours. Requests it considers unsafe are refused
+        by the service and the child is shown a gentle "try something else"
+        message.</li>
+      <li><strong>Parental gate.</strong> Subscription purchases, external
+        links, and sharing a drawing to another app are all protected by an
+        arithmetic challenge designed to be solvable by adults but not by young
+        children.</li>
+      <li><strong>No social surface.</strong> The app has no chat, no comments,
+        no public gallery, and no user accounts, so children cannot contact
+        strangers through the app and strangers cannot contact them.</li>
+    </ul>
+    <p>AI-generated output can occasionally still be imperfect, unexpected, or
+      fail to match the prompt. We cannot guarantee that every generated image
       will be suitable; a parent should be available to supervise. If you ever
       encounter inappropriate output, please report it to
-      <a href="mailto:support@example.com">support@example.com</a> and we will investigate.</p>
+      <a href="mailto:garrettmichael07@icloud.com">garrettmichael07@icloud.com</a>
+      and we will investigate and tighten our filters.</p>
     <p>You are responsible for the prompts submitted from your device. You agree
       not to attempt to generate content that is illegal, hateful, sexual, violent,
       that targets real people, or that violates any third-party rights. We reserve
@@ -206,7 +231,7 @@
 
     <h2>16. Contact</h2>
     <p>Questions about these Terms? Email
-      <a href="mailto:support@example.com">support@example.com</a>.</p>
+      <a href="mailto:garrettmichael07@icloud.com">garrettmichael07@icloud.com</a>.</p>
 
     <hr />
     <p style="color:var(--muted); font-size: 13px; margin: 0;">
