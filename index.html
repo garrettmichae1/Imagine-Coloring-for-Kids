@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Imagine: Kids Coloring Book — Legal</title>
+<style>
+  :root {
+    --coral: #FF6B35;
+    --sky:   #4FC3F7;
+    --yellow:#FFD54F;
+    --green: #4CAF50;
+    --cream: #FFFDF7;
+    --ink:   #1C1C1E;
+    --muted: #6b6b6b;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--cream); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "SF Pro Text",
+                 "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; text-align: center; }
+  .emoji { font-size: 72px; line-height: 1; margin-bottom: 16px; }
+  h1 { font-size: 42px; font-weight: 800; margin: 0 0 12px; letter-spacing: -0.5px; }
+  p.lead { font-size: 18px; color: var(--muted); margin: 0 0 36px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 560px) { .cards { grid-template-columns: 1fr; } }
+  a.card { display: block; padding: 28px 22px; background: #fff; border-radius: 22px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06); text-decoration: none; color: var(--ink);
+    border: 2px solid transparent; transition: transform .15s ease, border-color .15s ease; }
+  a.card:hover { transform: translateY(-2px); border-color: var(--coral); }
+  a.card .icon { font-size: 40px; margin-bottom: 10px; }
+  a.card h2 { font-size: 20px; margin: 0 0 6px; font-weight: 700; }
+  a.card p { margin: 0; color: var(--muted); font-size: 14px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--coral); text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="emoji">🎨</div>
+    <h1>Imagine: Kids Coloring Book</h1>
+    <p class="lead">Legal information for parents and guardians.</p>
+    <div class="cards">
+      <a class="card" href="privacy.html">
+        <div class="icon">🔒</div>
+        <h2>Privacy Policy</h2>
+        <p>How we protect your family's data.</p>
+      </a>
+      <a class="card" href="terms.html">
+        <div class="icon">📜</div>
+        <h2>Terms of Use</h2>
+        <p>The rules for using our app.</p>
+      </a>
+    </div>
+    <footer>
+      Questions? Email <a href="mailto:support@example.com">support@example.com</a>.
+    </footer>
+  </div>
+</body>
+</html>
