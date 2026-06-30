@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -35,6 +36,7 @@
   footer { margin-top: 32px; text-align:center; color: var(--muted); font-size: 13px; }
 </style>
 </head>
+
 <body>
 <div class="wrap">
   <div class="top">
@@ -50,206 +52,99 @@
 
   <div class="card">
 
-    <div class="callout">
-      These Terms of Use (the "Terms" or "EULA") govern your download and use of
-      Imagine: Kids Coloring Book. By using the app, you and your child agree to
-      these Terms. If you do not agree, please do not use the app.
-    </div>
+```
+<div class="callout">
+  These Terms of Use govern your download and use of Imagine: Kids Coloring Book.
+  By using the app, you and your child agree to these Terms.
+</div>
 
-    <h2>1. Who can use the app</h2>
-    <p>Imagine: Kids Coloring Book is designed for children. A parent or legal
-      guardian must install the app, approve purchases, and supervise use. By
-      enabling the app for a child, you represent that you are the parent or legal
-      guardian and that you accept these Terms on the child's behalf.</p>
+<h2>1. Who can use the app</h2>
+<p>Imagine: Kids Coloring Book is designed for children. A parent or legal guardian must install the app, approve purchases, and supervise use. By enabling the app for a child, you accept these Terms on the child's behalf.</p>
 
-    <h2>2. License</h2>
-    <p>The developer grants you a limited, personal, non-transferable,
-      non-exclusive, revocable license to download and use Imagine: Kids Coloring
-      Book on any Apple-branded device that you own or control, as permitted by
-      Apple's App Store Terms of Service (the "Usage Rules"). You may not copy,
-      modify, reverse-engineer, rent, lease, sublicense, or distribute the app
-      except as permitted by applicable law.</p>
+<h2>2. License</h2>
+<p>The developer grants you a limited, personal, non-transferable, non-exclusive, revocable license to use the app on Apple-branded devices you own or control, as permitted by Apple's App Store Terms of Service. You may not copy, modify, reverse-engineer, rent, lease, sublicense, or distribute the app except as permitted by law.</p>
 
-    <h2>3. Free use, purchases, and payments</h2>
-    <p>Imagine: Kids Coloring Book offers a small number of free custom AI image
-      generations, plus optional in-app purchases for additional content. Prices are
-      shown in the app before purchase and may vary by region.</p>
+<h2>3. Free use, purchases, and payments</h2>
+<p>The app may include free custom AI coloring page generations and optional in-app purchases for additional pages or themed packs. Prices are shown before purchase and may vary by region.</p>
 
-    <h3>Custom AI page packs</h3>
-    <p>The app may include 3 free custom AI generations. After those are used, a
-      parent or guardian can purchase consumable page packs for custom AI coloring
-      book pages:</p>
-    <ul>
-      <li><strong>20 Pages</strong> — 20 successful custom AI coloring page generations.</li>
-      <li><strong>50 Pages</strong> — 50 successful custom AI coloring page generations.</li>
-      <li><strong>100 Pages</strong> — 100 successful custom AI coloring page generations.</li>
-    </ul>
-    <p>One free generation or purchased page is used only when a custom AI page is
-      successfully made or when a bundled prompt-card page is opened through the
-      custom generation area. If the image-generation server fails or the app offers
-      a ready-made fallback page because of an error, that failed request does not
-      use a free generation or purchased page.</p>
-    <p>Page packs are consumable. They do not renew, do not create a subscription,
-      and are stored on the device. Consumable page balances may not sync or restore
-      across all devices.</p>
+<h3>Custom AI page packs</h3>
+<p>Parents or guardians may purchase consumable page packs for custom AI coloring pages. A page is used only when a custom AI page is successfully created or when a bundled prompt-card page is opened through the custom generation area. Failed server requests or fallback pages do not use a free generation or purchased page.</p>
+<p>Page packs are consumable, do not renew, and may not sync or restore across all devices.</p>
 
-    <h3>Themed packs</h3>
-    <p>The app also offers ready-made themed coloring packs. Each themed pack
-      includes a set of ready-made coloring pages. You may choose one page free from
-      each themed pack. A parent or guardian may unlock the full pack with a
-      non-consumable in-app purchase. Unlocking a themed pack makes all pages in
-      that pack available in the app.</p>
+<h3>Themed packs</h3>
+<p>The app may offer ready-made themed coloring packs. Each pack may include one free page. A parent or guardian may unlock the full pack with a non-consumable in-app purchase.</p>
 
-    <h3>Legacy subscriptions</h3>
-    <p>Earlier versions of the app offered monthly and yearly subscriptions. New
-      purchases are page packs and themed-pack unlocks, not auto-renewing
-      subscriptions. If you previously purchased a subscription, the app may still
-      check StoreKit and honor active legacy access where applicable.</p>
+<h3>Legacy subscriptions</h3>
+<p>Earlier versions of the app may have offered subscriptions. New purchases are page packs and themed-pack unlocks, not auto-renewing subscriptions. Active legacy access may still be honored where applicable.</p>
 
-    <p>All payments are processed by Apple. Refunds are handled by Apple under
-      their policies; please request refunds via
-      <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</p>
-    <p>Purchases are protected by a parental gate in the app. You can also restrict
-      in-app purchases on a child's device through iOS Screen Time settings.</p>
+<p>All payments are processed by Apple. Refunds are handled by Apple under its policies and can be requested at
+  <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.
+  Purchases are protected by a parental gate, and in-app purchases can also be restricted through iOS Screen Time settings.</p>
 
-    <h2>4. AI-generated content &amp; safety guardrails</h2>
-    <p>Imagine: Kids Coloring Book uses OpenAI's image-generation API to create
-      coloring pages from the text prompts typed or spoken in the app. To keep
-      the experience appropriate for children, we apply multiple layers of
-      safety:</p>
-    <ul>
-      <li><strong>On-device prompt filter.</strong> Before any prompt is sent off
-        the device, it is screened against a content-safety filter that blocks
-        sexual content, violence, weapons, drugs, hate speech, self-harm,
-        prompt-injection attempts, and gibberish. Blocked prompts never leave
-        the device.</li>
-      <li><strong>Style enforcement.</strong> Every prompt is automatically
-        wrapped with instructions that constrain the output to a
-        black-and-white, kid-appropriate coloring-book illustration. A child
-        cannot override this style through wording.</li>
-      <li><strong>OpenAI moderation.</strong> OpenAI applies its own safety
-        classifiers on top of ours. Requests it considers unsafe are refused
-        by the service and the child is shown a gentle "try something else"
-        message.</li>
-      <li><strong>Parental gate.</strong> Purchases, external
-        links, and sharing a drawing to another app are all protected by an
-        arithmetic challenge designed to be solvable by adults but not by young
-        children.</li>
-      <li><strong>No social surface.</strong> The app has no chat, no comments,
-        no public gallery, and no user accounts, so children cannot contact
-        strangers through the app and strangers cannot contact them.</li>
-    </ul>
-    <p>AI-generated output can occasionally still be imperfect, unexpected, or
-      fail to match the prompt. We cannot guarantee that every generated image
-      will be suitable; a parent should be available to supervise. If you ever
-      encounter inappropriate output, please report it to
-      and we will investigate and tighten our filters.</p>
-    <p>You are responsible for the prompts submitted from your device. You agree
-      not to attempt to generate content that is illegal, hateful, sexual, violent,
-      that targets real people, or that violates any third-party rights. We reserve
-      the right to refuse or filter requests.</p>
+<h2>4. AI-generated content and safety</h2>
+<p>The app uses OpenAI's image-generation API to create coloring pages from text prompts typed or spoken in the app. To help keep the experience appropriate for children, the app uses safety measures including:</p>
+<ul>
+  <li>On-device prompt filtering before prompts are sent off device.</li>
+  <li>Style enforcement for kid-appropriate black-and-white coloring-book images.</li>
+  <li>OpenAI safety moderation.</li>
+  <li>Parental gates for purchases, external links, and sharing.</li>
+  <li>No chat, comments, public gallery, social feed, or user accounts.</li>
+</ul>
+<p>AI-generated output may occasionally be imperfect, unexpected, or unsuitable. A parent or guardian should supervise use. If you encounter inappropriate output, report it through the app support information provided on the App Store listing, and we will investigate.</p>
+<p>You are responsible for prompts submitted from your device. You agree not to attempt to generate illegal, hateful, sexual, violent, rights-infringing, or otherwise inappropriate content.</p>
 
-    <h2>5. Your content</h2>
-    <p>Drawings and coloring pages created in the app are yours. They are stored
-      on your device. You grant us no license over them.</p>
+<h2>5. Your content</h2>
+<p>Drawings and coloring pages created in the app are yours and are stored on your device. You grant us no license over them.</p>
 
-    <h2>6. Acceptable use</h2>
-    <ul>
-      <li>Do not use the app for any unlawful purpose.</li>
-      <li>Do not attempt to disrupt, reverse-engineer, or probe the app, its
-        servers, or third-party services it uses.</li>
-      <li>Do not attempt to defeat or bypass parental gates, content filters,
-        purchase controls, free-use counters, or page-pack balances.</li>
-    </ul>
+<h2>6. Acceptable use</h2>
+<ul>
+  <li>Do not use the app for unlawful purposes.</li>
+  <li>Do not disrupt, reverse-engineer, or probe the app, its servers, or third-party services.</li>
+  <li>Do not bypass parental gates, filters, purchase controls, free-use counters, or page-pack balances.</li>
+</ul>
 
-    <h2>7. Privacy</h2>
-    <p>Your use of Imagine: Kids Coloring Book is also governed by our
-      <a href="privacy.html">Privacy Policy</a>.</p>
+<h2>7. Privacy</h2>
+<p>Your use of the app is also governed by our <a href="privacy.html">Privacy Policy</a>.</p>
 
-    <h2>8. Third-party services</h2>
-    <p>The app relies on services from Apple (App Store, StoreKit, iOS frameworks),
-      Cloudflare (our image-generation proxy), and OpenAI (image generation). Your
-      use of those services through the app is also subject to their respective
-      terms.</p>
+<h2>8. Third-party services</h2>
+<p>The app may rely on services from Apple, Cloudflare, and OpenAI. Your use of those services through the app may also be subject to their respective terms and policies.</p>
 
-    <h2>9. Disclaimers</h2>
-    <p>Imagine: Kids Coloring Book is provided <strong>"as is"</strong> and
-      <strong>"as available"</strong> without warranties of any kind, whether
-      express, implied, statutory, or otherwise, including warranties of
-      merchantability, fitness for a particular purpose, title, and
-      non-infringement. We do not warrant that the app will be uninterrupted,
-      error-free, or free of harmful components, or that any content generated will
-      meet your expectations.</p>
+<h2>9. Disclaimers</h2>
+<p>The app is provided <strong>"as is"</strong> and <strong>"as available"</strong> without warranties of any kind. We do not warrant that the app will be uninterrupted, error-free, free of harmful components, or that generated content will meet your expectations.</p>
 
-    <h2>10. Limitation of liability</h2>
-    <p>To the maximum extent permitted by law, in no event will Garrett Woodside be
-      liable for any indirect, incidental, special, consequential, or punitive
-      damages, or any loss of profits or revenues, arising out of or in connection
-      with your use of Imagine: Kids Coloring Book. Our total liability for any
-      claim arising out of or relating to these Terms or the app will not exceed
-      the amount you paid us (via Apple) in the twelve months preceding the claim,
-      or USD $50 if you paid nothing.</p>
+<h2>10. Limitation of liability</h2>
+<p>To the maximum extent permitted by law, the app developer will not be liable for indirect, incidental, special, consequential, or punitive damages, loss of profits, or loss of revenues arising from your use of the app. Total liability for any claim will not exceed the amount you paid through Apple in the twelve months before the claim, or USD $50 if you paid nothing.</p>
 
-    <h2>11. Indemnification</h2>
-    <p>You agree to indemnify and hold harmless Garrett Woodside from any claims
-      arising out of your violation of these Terms or your misuse of the app.</p>
+<h2>11. Indemnification</h2>
+<p>You agree to indemnify and hold harmless the app developer from claims arising out of your violation of these Terms or misuse of the app.</p>
 
-    <h2>12. Changes to the app and these Terms</h2>
-    <p>We may update the app and these Terms from time to time. Material changes
-      will be reflected by an updated effective date above and, where appropriate,
-      additional notice.</p>
+<h2>12. Changes</h2>
+<p>We may update the app and these Terms from time to time. Material changes will be reflected by an updated effective date and, where appropriate, additional notice.</p>
 
-    <h2>13. Termination</h2>
-    <p>You may stop using the app at any time by uninstalling it. We may suspend
-      or terminate access if you materially breach these Terms.</p>
+<h2>13. Termination</h2>
+<p>You may stop using the app at any time by uninstalling it. We may suspend or terminate access if you materially breach these Terms.</p>
 
-    <h2>14. Governing law</h2>
-    <p>These Terms are governed by the laws of the State of your residence within
-      the United States, without regard to conflict-of-laws principles. If you
-      reside outside the United States, local mandatory consumer protection laws
-      still apply to you.</p>
+<h2>14. Governing law</h2>
+<p>These Terms are governed by the laws of the state of your residence within the United States, without regard to conflict-of-laws principles. If you reside outside the United States, local mandatory consumer protection laws may still apply.</p>
 
-    <h2>15. Apple-specific terms (required by Apple)</h2>
-    <p>The following apply because Imagine: Kids Coloring Book is distributed via
-      the Apple App Store:</p>
-    <ul>
-      <li>These Terms are concluded between you and Garrett Woodside only, and not
-        with Apple. The developer (not Apple) is solely responsible for the app
-        and its content.</li>
-      <li>The license granted to you is limited to a non-transferable license to
-        use the app on any Apple-branded product that you own or control, as
-        permitted by the Usage Rules in the Apple Media Services Terms and
-        Conditions.</li>
-      <li>Apple has no obligation to furnish any maintenance or support services
-        with respect to the app.</li>
-      <li>In the event of any failure of the app to conform to any applicable
-        warranty, you may notify Apple, and Apple will refund the purchase price
-        (if any) for the app. To the maximum extent permitted by law, Apple will
-        have no other warranty obligation with respect to the app.</li>
-      <li> The developer (not Apple) is responsible for addressing any claims by
-        you or any third party relating to the app or your use of it, including
-        product-liability claims, claims that the app fails to conform to any
-        applicable legal or regulatory requirement, and claims arising under
-        consumer protection, privacy, or similar legislation.</li>
-      <li>The Developer(not Apple) is solely responsible for investigating,
-        defending, settling, and discharging any third-party intellectual property
-        infringement claim related to the app.</li>
-      <li>You represent and warrant that you are not located in a country that is
-        subject to a U.S. Government embargo, or that has been designated by the
-        U.S. Government as a "terrorist supporting" country, and that you are not
-        listed on any U.S. Government list of prohibited or restricted parties.</li>
-      <li>Apple and Apple's subsidiaries are third-party beneficiaries of these
-        Terms, and upon your acceptance of these Terms, Apple will have the right
-        (and will be deemed to have accepted the right) to enforce these Terms
-        against you as a third-party beneficiary.</li>
-    </ul>
+<h2>15. Apple-specific terms</h2>
+<p>Because the app is distributed through the Apple App Store:</p>
+<ul>
+  <li>These Terms are between you and the app developer only, not Apple.</li>
+  <li>The developer, not Apple, is responsible for the app and its content.</li>
+  <li>Apple has no obligation to provide maintenance or support for the app.</li>
+  <li>If the app fails to conform to an applicable warranty, you may notify Apple, and Apple may refund the purchase price, if any, as required by applicable App Store terms.</li>
+  <li>The developer is responsible for addressing claims relating to the app, including product-liability, legal-compliance, consumer-protection, privacy, and intellectual-property claims.</li>
+  <li>You represent that you are not located in a country subject to a U.S. Government embargo or listed on a U.S. Government restricted-party list.</li>
+  <li>Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce these Terms against you.</li>
+</ul>
 
-    <h2>16. Contact</h2>
-    <p>Questions about these Terms? Email
-      <a href="mailto:garrettmichael07@icloud.com">garrettmichael07@icloud.com</a>.</p>
+<h2>16. Contact</h2>
+<p>Questions about these Terms? Please contact app support through the support information provided on the App Store listing.</p>
 
-    <hr />
-  
+<hr />
+```
+
   </div>
 
   <footer>
@@ -258,3 +153,4 @@
 </div>
 </body>
 </html>
+
